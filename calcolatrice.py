@@ -1,5 +1,4 @@
 from funzioni.somma import somma
-from test.test_somma import test01, test02
 
 
 
@@ -14,6 +13,4 @@ def main():
     print(f"La somma di {num1} e {num2} è: {risultato}")
 
 if __name__ == "__main__":
-    #main()
-    test01()
-    test02()
+    main()
